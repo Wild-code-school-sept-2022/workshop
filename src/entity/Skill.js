@@ -1,8 +1,8 @@
-const EntitySchema = require('typeorm').EntitySchema;
+const EntitySchema = require("typeorm").EntitySchema;
 
 module.exports = new EntitySchema({
     name: "Skill",
-    columns:{
+    columns: {
         id: {
             primary: true,
             type: "int",
@@ -10,7 +10,6 @@ module.exports = new EntitySchema({
         },
         name: {
             type: "string",
-            unique: true,
         }
     }
 })

@@ -1,0 +1,3 @@
+DELETE http://localhost:3000/Skills/2
+Content-Type: application/json
+

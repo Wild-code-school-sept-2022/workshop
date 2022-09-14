@@ -9,7 +9,8 @@ module.exports = new EntitySchema({
             generated: true,
         },
         name: {
-            type: "string",
+            type: "text",
+            unique: true,
         }
     }
 })
